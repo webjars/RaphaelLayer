@@ -10,15 +10,15 @@
     
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
-    <artifactId>raphael-layer</artifactId>
-    <version>0.1.3-SNAPSHOT</version>
+    <artifactId>RaphaelLayer</artifactId>
+    <version>c1200c7-SNAPSHOT</version>
     <name>RaphaelLayer Leaflet plugin</name>
     <description>WebJar for RaphaelLayer (plugin for Leaflet)</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.1.3</upstream.version>
+        <upstream.version>c1200c7</upstream.version>
         <upstream.commitsha>c1200c77d2a497be28c186c81e749cfdd7309c19</upstream.commitsha>
         <upstream.url>https://codeload.github.com/dynmeth/RaphaelLayer/zip/${upstream.commitsha}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
@@ -51,9 +51,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/dynmeth/RaphaelLayer</url>
-        <connection>scm:git:https://github.com/dynmeth/RaphaelLayer.git</connection>
-        <developerConnection>scm:git:https://github.com/dynmeth/RaphaelLayer.git</developerConnection>
+        <url>http://github.com/webjars/RaphaelLayer</url>
+        <connection>scm:git:https://github.com/webjars/RaphaelLayer.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/RaphaelLayer.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     
